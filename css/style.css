@@ -51,7 +51,6 @@ header .logo{
 main{
     display: flex;
     flex-direction: row;
-    /*background: url(../imagenes/background.jpg) none;*/
     background: var(--color-primario);
     background-size: cover;
     background-position: center;
@@ -70,7 +69,6 @@ main{
     font-size: 32px;
     line-height: 48px;
     outline: none;
-    /*border: 1px solid var(--color-borde);*/
     border: none;
     border-radius: 15px;
     resize: none;
