@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header class="header">
+        <a class="header_unico" href="#" rel="">
+            <img class="logo" src="./imagenes/logo.png" alt="Logo Alura Latam">
+        </a>
+    </header>
+    <main class="principal">
+        <section class="cuadro_texto">
+            <textarea class="encriptar_texto" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="alerta_encriptador">
+                <img class="icono_alerta" src="./imagenes/alerta.png" alt="Imagen Alerta">
+                <p class="texto_alerta">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones_encriptador">
+                <button class="boton_encriptar" type="submit">Encriptar</button>
+                <button class="boton_desencriptar" type="submit">Desencriptar</button>
+            </div>
+        </section>
+        <section class="cuadro_resultado">
+            <div class="cuadro_resultado_encriptador">
+                <img class="muñeco_cuadro_resultado" src="./imagenes/Muñeco.png" alt="Muñeco Cuadro Resultado">
+                <p class="cuadro_resultado_titulo">Ningún mensaje fue encontrado</p>
+                <p class="cuadro_resultado_subtitulo">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea class="copiar_texto" type="mensaje" readonly></textarea>
+            <button class="boton_copiar" type="submit">Copiar</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="autoria">&copy; copyright 2024 - Encriptador de Texto by Luis Castillo</p>
+        <a href="https://github.com/Shurakka" target="_blank" rel="noreferrer noopener">
+            <img class="github" src="./imagenes/github.png" alt="Logo GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/luis-carlos-castillo-285653b9/" target="_blank" rel="noreferrer noopener">
+            <img class="linkedin" src="./imagenes/linkedin.png" alt="Logo Linkedin">        
+        </a>
+
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>
